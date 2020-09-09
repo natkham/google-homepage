@@ -1,5 +1,21 @@
+main {
+    /* display: block; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.logo img {
+    display: block;
+    margin: 25px auto;
+}
+
 .search {
-    border: 1px gray solid;
-    max-width: 600px;
-    height: 40px;
+    border: 1px #DEE1E5 solid;
+    border-radius: 25px;
+    max-width: 500px;
+    height: 45px;
+
+    margin-left: auto;
+    margin-right: auto;
 }
