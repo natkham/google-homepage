@@ -22,3 +22,14 @@ body, html {
     margin-right: auto;
     margin-top: 25px;
 }
+
+.search-buttons {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5F6367;
+}
+
+.button {
+    background-color: #F2F2F2;
+    text-align: center;
+    display: inline-block;
+}
