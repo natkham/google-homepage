@@ -3,11 +3,15 @@ body, html {
     display: grid;
 }
 
+body {
+    margin: 0;
+}
+
 .parent {
     margin: auto;
 }
 
-.logo img {
+#google-logo {
     display: block;
     margin: 0 auto;
 }
@@ -25,18 +29,19 @@ body, html {
 
 .search-buttons {
     font-family: Arial, Helvetica, sans-serif;
-    color: #5F6367;
     text-align: center;
 
     margin-top: 15px;
 }
 
 .button {
+    color: #5F6367;
     background-color: #F2F2F2;
     font-size: 14px;
-    text-align: center;
-    display: inline-block;
+    text-decoration: none;
 
+    display: inline-block;
+    text-align: center;
     margin: 10px 3px;
     padding: 10px 18px;
 
