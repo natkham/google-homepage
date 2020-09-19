@@ -16,7 +16,7 @@ body {
     margin: 0 auto;
 }
 
-.search-bar {
+#search {
     border: 1px #DEE1E5 solid;
     border-radius: 25px;
     min-width: 580px;
@@ -25,10 +25,17 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 25px;
+
+    padding-left: 50px;
+    font-size: 16px;
 }
 
-.search-bar:hover {
+#search:hover {
     box-shadow: 0px 2px 6px #DEE1E5;
+}
+
+#search:focus {
+    outline: none;
 }
 
 .search-buttons {
@@ -58,5 +65,6 @@ body {
 
 .button:hover {
     color: #222;
-    border: 1px solid #c6c6c6;
+    /* border: 1px solid #c6c6c6; */
+    box-shadow: 0 0 0 1px #c6c6c6;
 }
