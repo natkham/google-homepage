@@ -1,5 +1,4 @@
 body, html {
-    height: 100%;
     display: grid;
 }
 
@@ -9,6 +8,7 @@ body {
 
 .navbar {
     /* border: 1px palevioletred solid; */
+    margin-bottom: 100px;
 }
 
 .navigation {
@@ -43,8 +43,9 @@ body {
 }
 
 .parent {
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
     /* border: 1px teal solid; */
 }
 
