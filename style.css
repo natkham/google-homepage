@@ -133,4 +133,6 @@ body {
     background-color: #4684EF;
     font-size: 12px;
     margin: 12px 0;
+    padding: 8px 15px;
+    border-radius: 2px;
 }
