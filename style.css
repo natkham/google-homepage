@@ -30,6 +30,17 @@ body {
     margin-left: auto;
 }
 
+#grid-menu-icon {
+    /* border: orange 1px solid; */
+    align-self: center;
+}
+
+#grid-menu-icon img {
+    width: 18px;
+    height: auto;
+    opacity: 60%;
+}
+
 .parent {
     margin: auto;
     border: 1px teal solid;
