@@ -69,15 +69,23 @@ footer {
 
 .search-wrapper img {
     position: absolute;
-    top: 38px;
-    left: 18px;
-    opacity: 60%;
-    /* border: 1px black solid; */
 }
 
 #magnifying-glass-icon {
     width: 3%;
     height: auto;
+
+    top: 38px;
+    left: 18px;
+    opacity: 60%;
+}
+
+#microphone-icon {
+    width: 2.5%;
+    height: auto;
+
+    top: 36px;
+    right: 20px;
 }
 
 #search {
