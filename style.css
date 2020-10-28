@@ -6,6 +6,10 @@ body {
     margin: 0;
 }
 
+footer {
+    margin: 0;
+}
+
 .navbar {
     margin-bottom: 150px;
 }
@@ -138,9 +142,11 @@ body {
     width: 100%;
     bottom: 0;
     display: flex;
-    font-size: 14px;
-
+    box-sizing: border-box;
     align-items: center;
+    padding: 0 20px;
+
+    font-size: 14px;
     background-color: #F2F2F2;
 }
 
