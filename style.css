@@ -30,6 +30,10 @@ footer {
     padding: 0 10px;
 }
 
+.link:hover {
+    text-decoration: underline;
+}
+
 .right {
     margin-left: auto;
 }
@@ -43,6 +47,10 @@ footer {
     width: 18px;
     height: auto;
     opacity: 60%;
+}
+
+#grid-menu-icon img:hover {
+    opacity: 100%;
 }
 
 .parent {
@@ -135,6 +143,7 @@ footer {
     margin: 12px 0;
     padding: 8px 14px;
     border-radius: 2px;
+    text-decoration: none;
 }
 
 .footer {
